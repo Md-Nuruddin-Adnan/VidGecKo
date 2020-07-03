@@ -1,0 +1,116 @@
+#page-2 {
+  // banner section start
+  .banner {
+    .text {
+      .heading {
+        font-weight: 700;
+        font-size: 24px;
+        color:  $text-color;
+        margin-bottom: 20px;
+      }
+
+      .info {
+        h5 {
+          font-weight: 700;
+          font-size: 14px;
+          color:  $text-color;
+          margin-bottom: 15px;
+  
+          &.for-border {
+            @media(min-width: 575px){
+              border-right: 1px solid rgba(0,0,0, 0.2);
+              width: 56%;
+              white-space: nowrap;
+            }
+          }
+  
+          a {
+            font-weight: 600;
+            color:  $primary-color;
+            padding-left: 5px;
+          }
+        }
+  
+        .date-time {
+          p {
+            font-weight: 600;
+            margin-top: -15px;
+            padding-left: 10px;
+          }
+        }
+      }
+
+      .joining-number {
+        margin: 10px 0 20px 0;
+
+        i {
+          font-size: 20px;
+          color: $primary-color;
+          padding-right: 10px;
+        }
+
+        p {
+          font-weight: 500;
+          color:  #6e7582;
+          font-size: 13px;
+        }
+      }
+
+      form {
+        .form-control {
+          border: none;
+          font-weight: 500;
+          color: #6e7582;
+          font-size: 14px;
+          padding: 22px 15px;
+  
+           &::placeholder {
+            font-weight: 500;
+            color: #6e7582;
+            font-size: 14px;
+           }
+        }
+
+        .custom-control-label {
+          margin-top: 3px;
+        }
+
+        .terms-condition-link {
+          p {
+            font-weight: 500;
+            color: #6e7582;
+            font-size: 13px;
+
+            a {
+              color: $primary-color;
+            }
+          }
+        }
+
+        .my-btn {
+          padding: 15px;
+        }
+      }
+    
+    }
+  }
+  // end of banner section
+
+  // overview section start
+  .overview {
+    padding: 80px 0;
+
+    .heading {
+      font-size: 16px;
+      font-weight: 800;
+      color: $text-color;
+      margin-bottom: 20px;
+    }
+
+    p {
+      margin-bottom: 20px;
+      text-align: justify;
+    }
+  }
+  // end of overview section
+}

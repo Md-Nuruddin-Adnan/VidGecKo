@@ -1,0 +1,30 @@
+.navbar-light .container {
+  max-width: 1140px;
+}
+
+.navbar .navbar-brand img {
+  @media(max-width: 575px){
+    max-width: 160px;
+  }
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: 16px;
+  font-weight: 500;
+  color: $text-color;
+  padding-right: 20px;
+
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color: $primary-color;
+}
+
+.navbar-light .login-btn {
+  font-size: 16px;
+  font-weight: 600;
+  color: $text-color;
+}
